@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="چت,چت روم,ناز چت,پرشین چت,چتروم,فارسی چت,چتروم فارسی,اواز چت,شلوغ چت,شما چت,کاتالیا چت,فارسی چت روم,صحرا چت" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="distribution" content="global" />
+    <meta http-equiv="Content-Language" content="fa" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="1 days" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta property="og:type" content="website" />
+    <title>صحراچت|چت|چت روم|پرشین چت|ناز چت</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="menu_header">
+            <nav class="navbar navbar-expand-lg navbar-dark  mb-5 ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav menu-header__ul">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">صفحه ی اصلی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">امتیازات کاربران</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">بازیابی رمز عبور</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">تماس با ما</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="login">
+            <div class="row justify-content-center flex-wrap-reverse">
+                <div class="d-flex align-item-center mr-3">
+                    <form action="" class="form-group" id="form" onsubmit="return login(this);" action="">
+                        <input type="hidden" name="<?=rrobot();?>" value="<?=mrobot();?>">
+                        <input type="hidden" name="<?=trobot();?>" value="<?=rtoken();?>">
+                        <input type="hidden" name=" <?=trobot();?>" value="
+                        <?=rtoken();?>">
+                        <div id="lay_hide" class="d-none">
+                        <input type="checkbox" name="hide" value="1">
+                            <span class="hide"> ورود مخفی </span>
+                        </div>
+                        <input type="hidden" type="hidden" name="<?=token2();?>" value="<?=gtoken();?>" />
+                        <div class="login_main">
+                            <div class="openchat">
+                                <h3>ورود به چت روم</h3>
+                                <div class="name-user d-flex justify-content-center">
+                                    <div class="name-user-icon">نام شما</div>
+                                    <input type="text" class="input-name" name="username" id="username" maxlength=""
+                                        type="text">
+                                </div>
+                                <div class="password-user d-flex justify-content-center position-relative">
+                                    <div class="password-icon">رمزعبور</div>
+                                    <input id="password-field" class="input-password "  type="password" class="form-control" name="password">
+                                    <span toggle="#password-field" class="fa-fw  fa fa-eye field-icon toggle-password position-absolute "></span>
+                                </div>
+                                <div class="gender-user d-flex justify-content-center">
+                                    <div class="password-icon">جنسیت</div>
+                                    <select class="input-select" id="gender" name="gender" size="1">
+                                        <option value="1" id="gender" name="gender" size="2">پسر</option>
+                                        <option value="2">دختر</option>
+                                    </select>
+                                </div>
+
+                                <div class="openـchatroom d-flex justify-content-center">
+                                    <button value="ورود به چت" type="submit" id="submit_button" name="go"
+                                        value="ورود به چت">ورود</button>
+                                </div>
+
+                                <div class="online-user">
+                                    <img src="img/online.png" alt="آنلاین">
+                                    <span class="user-online">۲۵۵ نفر آنلاین در چت</span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class=" sahara-chat-icon">
+                    <img src="img/sahrachat1.png" alt="صحراچت">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

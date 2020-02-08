@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Bold-web.eot');
+
+    src: url('../fonts/IRANSans-Bold-web.eot?#iefix') format('eot'), /* IE6–8 */ url('../fonts/IRANSans-Bold-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/ url('../fonts/IRANSans-Bold-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans-Bold-web.ttf') format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Medium-web.eot');
+
+    src: url('../fonts/IRANSans-Medium-web.eot?#iefix') format('eot'), /* IE6–8 */ url('../fonts/IRANSans-Medium-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/ url('../fonts/IRANSans-Medium-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans-Medium-web.ttf') format('ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-UltraLight-web.eot');
+
+    src: url('../fonts/IRANSans-UltraLight-web.eot?#iefix') format('eot'), /* IE6–8 */ url('../fonts/IRANSans-UltraLight-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/ url('../fonts/IRANSans-UltraLight-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans-UltraLight-web.ttf') format('ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Light-web.eot');
+
+    src: url('../fonts/IRANSans-Light-web.eot?#iefix') format('eot'), /* IE6–8 */ url('../fonts/IRANSans-Light-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/ url('../fonts/IRANSans-Light-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans-Light-web.ttf') format('ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-web.eot');
+
+    src: url('../fonts/IRANSans-web.eot?#iefix') format('eot'), /* IE6–8 */ url('../fonts/IRANSans-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/ url('../fonts/IRANSans-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans-web.ttf') format('ttf');
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body {
+   background: url(../img/saharachat.png) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.menu_header{
+    width: 100%;
+    height: 50px;
+    background: #3c4145;
+    margin-top: 40px;
+    border-radius: 10px;
+     position: relative;
+    z-index: 1111111111;
+}
+.menu-header__ul {
+    background: #3c4145;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.menu_header,.menu-header__ul  li {
+    padding-right: 30px;
+    line-height: 1.5;
+    color: white;
+    font-family: 'IRANSans-web';
+    font-size: 14px;
+}
+.login_main {
+    width: 350px;
+    height: 420px;
+    background-color: #3a377a;
+    border-radius: 20px;
+    margin: 40px;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+
+/*picture icon*/
+.sahara-chat-icon img{
+    padding-top: 100px;
+    padding-left: 10px;
+    width:90%;
+
+}
+.sahara-chat-icon{
+    text-align: center;
+}
+/*picture icon*/
+/*log in */
+.openchat{
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'IRANSans-web';
+    font-size: 24px;
+    color: white;
+}
+.openchat h3{
+    line-height:2.5;
+    opacity: 100%;
+}
+.menu-header > .nav-link {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.cart{
+    background-color: #4caf50;
+    border-radius: 3px;
+    color: white;
+}
+.name-user-icon{
+    font-family: 'IRANSans-web';
+    font-size: 16px;
+    line-height: 3;
+    width: 90px;
+    height: 50px;
+    background-color: #a0c0f4;
+    color: #484194;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.input-name{
+    background-color: #c8dce7;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:0px;
+    outline: 0;
+    width: 221px;
+}
+.input-password{
+    background-color: #c8dce7;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:0px;
+    outline: 0;
+    width: 221px;
+}
+.password-icon{
+    font-family: 'IRANSans-web';
+    font-size: 16px;
+    line-height: 3;
+    width: 90px;
+    height: 50px;
+    background-color: #a0c0f4;
+    color: #484194;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.password-user{
+    margin-top: 15px;
+}
+.gender-user{
+    margin-top: 15px;
+}
+.input-select{
+    background-color: #c8dce7;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:0px;
+    outline: 0;
+    width: 221px;
+    text-align: left;
+}
+select {
+    text-align: left;
+    text-align-last: left;
+    font-size: 14px;
+    color: #42398e;
+    /* webkit*/
+}
+option {
+    text-align: left;
+    padding: 10px;
+    /* reset to left*/
+}
+
+.openـchatroom button{
+    font-family: 'IRANSans-web';
+    width: 315px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    line-height: 4;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+.openـchatroom:hover{
+    opacity: 0.8;
+    outline: 0;
+}
+.online-user{
+    font-size: 16px;
+}
+.mynav .active .nav-link {
+    color: #f43154;
+    position: relative;
+}
+ button:focus {
+
+outline: none;
+outline: 5px auto;
+}
+.field-icon {
+    float: right;
+    position: absolute;
+    z-index: 2;
+    margin-right: 130px;
+    margin-top: 10px;
+}
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+
+
+}
+@media only screen and (max-width:992px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .login_main {
+    margin-right: 30px;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .login_main {
+
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 320px) {
+
+      .login_main {
+
+    margin-right: auto;
+    }
+}
+
+/**log in **/
